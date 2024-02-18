@@ -8,11 +8,13 @@
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.clinica</groupId>
-	<artifactId>clinica-service</artifactId>
+	<groupId>br.com.banco</groupId>
+	<artifactId>banco-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Clinica Service</name>
-	<description>API Rest de controle de Clinica</description>
+	<name>Banco Service</name>
+	<description>Demo project for Spring Boot</description>
+	<dependencies>
 
+	</dependencies>
 
 </project>

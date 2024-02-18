@@ -10,15 +10,17 @@
     </parent>
 
     <groupId>br.com.gestao_clinica</groupId>
-    <artifactId>gestao_clinica</artifactId>
+    <artifactId>gestao-clinica</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>clinica-service</module>
-        <module>caixa-service</module>
-        <module>discovery-server</module>
         <module>api-gateway</module>
+        <module>banco-service</module>
+        <module>caixa-service</module>
+        <module>clinica-service</module>
+        <module>discovery-server</module>
+        <module>security-server</module>
     </modules>
     <properties>
         <java.version>17</java.version>
@@ -45,7 +47,6 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>9.22.3</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api_getway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banco-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/caixa-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clinica-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clinica-service/src/main/resources" charset="UTF-8" />
@@ -12,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/discovery-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/financeiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/getway_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

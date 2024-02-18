@@ -15,10 +15,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>api_clinica</module>
-        <module>api_financeiro</module>
-        <module>discovery_server</module>
-        <module>api_gateway</module>
+        <module>clinica-service</module>
+        <module>caixa-service</module>
+        <module>discovery-server</module>
+        <module>api-gateway</module>
     </modules>
     <properties>
         <java.version>17</java.version>

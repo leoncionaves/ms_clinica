@@ -10,10 +10,17 @@ spring:
     driverClassName: org.postgresql.Driver
 
   rabbitmq:
-    host: 172.16.238.12
+    host: 172.16.238.11
     port: 5672
     username: admin
     password: admin
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://discovery-server:8761/eureka
 
 server:
   error:

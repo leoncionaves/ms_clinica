@@ -26,8 +26,6 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "idUsuario")
-@SequenceGenerator(name = "seq_paciente", sequenceName = "seq_paciente", initialValue = 1, allocationSize = 1)
 public class Usuario extends Pessoa implements UserDetails {
 
     private String usuario;

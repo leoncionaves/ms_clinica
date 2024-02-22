@@ -25,6 +25,9 @@ public class APIGatewayApplication {
 				.route("caixa-service", r -> r.path("/caixa-service/**")
 						.filters(f -> f.stripPrefix(1))
 						.uri("lb://CAIXA-SERVICE"))
+				.route("banco-service", r -> r.path("/banco-service/**")
+						.filters(f -> f.stripPrefix(1))
+						.uri("lb://BANCO-SERVICE"))
 				.build();
 	}
 

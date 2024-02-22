@@ -13,6 +13,13 @@ spring:
     password: postgres
     driverClassName: org.postgresql.Driver
 
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://192.168.15.15:8761/eureka
+
 server:
   error:
     include-stacktrace: always
